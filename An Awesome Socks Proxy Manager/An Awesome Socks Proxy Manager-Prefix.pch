@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'A Awessome Socks Proxy Manager' target in the 'A Awesome Socks Proxy Manager' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+//    #import "SPHCostants.h"
+#endif

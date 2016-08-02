@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD4FAB5F-B3BA-41E9-8B5F-310A2038EAAF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>An Awesome Socks Proxy Manager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E9D105F5CE7B790578420A501C53869363258AE9</key>
+		<string>github.com:aspacca/awesomesocksproxy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>An Awesome Socks Proxy Manager.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E9D105F5CE7B790578420A501C53869363258AE9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:aspacca/awesomesocksproxy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E9D105F5CE7B790578420A501C53869363258AE9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E9D105F5CE7B790578420A501C53869363258AE9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>An%20Awesome%20Socks%20Proxy%20Manager</string>
+		</dict>
+	</array>
+</dict>
+</plist>

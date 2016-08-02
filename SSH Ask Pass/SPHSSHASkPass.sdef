@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="SSH Ask Pass Terminology">
+    
+    <suite name="SSH Ask Pass Suite" code="sAkP" description="SSH Ask Pass information.">
+        <command name="authenticate" code="sAkPdiag" description="Authenticate fifo by window dialog.">
+            
+            <cocoa class="SPHAskPassAuthenticator"/>
+            <direct-parameter type="text"/>
+            
+            <parameter name="caption" code="capt" type="text" description="Caption to show.">
+                <cocoa key="withCaption"/>
+            </parameter>
+            
+        </command>
+    </suite>
+    
+</dictionary>

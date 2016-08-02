@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6505C3B115ADDADB00D27B44 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 6505C3B015ADDADB00D27B44 /* Images */; };
+		650BBD9E15B6A95C0083519D /* SPHAskPassAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BBD9D15B6A95C0083519D /* SPHAskPassAuthenticator.m */; };
+		653357E215B8B8BF0028A746 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653357E115B8B8BF0028A746 /* MainMenu.xib */; };
+		6535F59318168DF9003B7BC2 /* SSH Ask Pass.app in Resources */ = {isa = PBXBuildFile; fileRef = 658CB65415B551E4004326C5 /* SSH Ask Pass.app */; };
+		6537260D15ADD6CA0092515C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659201A115A75C6B000AB407 /* Cocoa.framework */; };
+		6537262415ADD7AD0092515C /* SPHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 659201B415A75C6B000AB407 /* SPHAppDelegate.m */; };
+		6537262615ADD7B20092515C /* NSUserDefaults+NonPropertyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 658EEA7D15AD610E008E2875 /* NSUserDefaults+NonPropertyValue.m */; };
+		6537262715ADD7B60092515C /* NSTask+OneLineTasksWithOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6527100F15A7DCCD007863F9 /* NSTask+OneLineTasksWithOutput.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6537262815ADD8C60092515C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6527101D15A7E032007863F9 /* Security.framework */; };
+		6537262915ADD8D40092515C /* SecurityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6527101E15A7E032007863F9 /* SecurityFoundation.framework */; };
+		658CB65615B551E4004326C5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659201A115A75C6B000AB407 /* Cocoa.framework */; };
+		658CB65E15B551E4004326C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 658CB65D15B551E4004326C5 /* main.m */; };
+		658CB67A15B55328004326C5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658CB67915B55328004326C5 /* MainMenu.xib */; };
+		658CB68015B553DF004326C5 /* SPHAskSSHPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 658CB67F15B553DF004326C5 /* SPHAskSSHPass.m */; };
+		65A07EDE15B57F4600999483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659201AD15A75C6B000AB407 /* main.m */; };
+		65C6229715B6818D00291832 /* SPHSSHASkPass.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 65C6229615B6818D00291832 /* SPHSSHASkPass.sdef */; };
+		65CA13D015B5727100C6691A /* walkingsocks.icns in Resources */ = {isa = PBXBuildFile; fileRef = 65CA13CF15B5727100C6691A /* walkingsocks.icns */; };
+		65CA13D215B5727400C6691A /* sshaskpass.icns in Resources */ = {isa = PBXBuildFile; fileRef = 65CA13D115B5727400C6691A /* sshaskpass.icns */; };
+		65CA13E715B5767600C6691A /* SSHAskPass.sh in Resources */ = {isa = PBXBuildFile; fileRef = 65CA13E615B5767600C6691A /* SSHAskPass.sh */; };
+		65CA13E815B57A4600C6691A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659201A415A75C6B000AB407 /* AppKit.framework */; };
+		65CA13E915B57A5000C6691A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659201A415A75C6B000AB407 /* AppKit.framework */; };
+		65CA13EE15B57BDB00C6691A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F054ED15B050D800BA4860 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6535F59118168DEE003B7BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6592019415A75C6A000AB407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658CB65315B551E4004326C5;
+			remoteInfo = "SSH Ask Pass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6505C3B015ADDADB00D27B44 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		650BBD9C15B6A95C0083519D /* SPHAskPassAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHAskPassAuthenticator.h; sourceTree = "<group>"; };
+		650BBD9D15B6A95C0083519D /* SPHAskPassAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHAskPassAuthenticator.m; sourceTree = "<group>"; };
+		6527100E15A7DCCD007863F9 /* NSTask+OneLineTasksWithOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+OneLineTasksWithOutput.h"; sourceTree = "<group>"; };
+		6527100F15A7DCCD007863F9 /* NSTask+OneLineTasksWithOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+OneLineTasksWithOutput.m"; sourceTree = "<group>"; };
+		6527101615A7DF40007863F9 /* NSString+SeparatingIntoComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SeparatingIntoComponents.h"; sourceTree = "<group>"; };
+		6527101715A7DF40007863F9 /* NSString+SeparatingIntoComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SeparatingIntoComponents.m"; sourceTree = "<group>"; };
+		6527101D15A7E032007863F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6527101E15A7E032007863F9 /* SecurityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityFoundation.framework; path = System/Library/Frameworks/SecurityFoundation.framework; sourceTree = SDKROOT; };
+		6527102315A7EBB9007863F9 /* SPHCostants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SPHCostants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		653357E115B8B8BF0028A746 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		6537260B15ADD6CA0092515C /* An Awesome Socks Proxy Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "An Awesome Socks Proxy Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658CB65415B551E4004326C5 /* SSH Ask Pass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSH Ask Pass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658CB65D15B551E4004326C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		658CB67415B5526A004326C5 /* SSH Ask Pass_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSH Ask Pass_Prefix.pch"; sourceTree = "<group>"; };
+		658CB67515B55291004326C5 /* SSH Ask Pass-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSH Ask Pass-Info.plist"; sourceTree = "<group>"; };
+		658CB67915B55328004326C5 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		658CB67E15B553DF004326C5 /* SPHAskSSHPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHAskSSHPass.h; sourceTree = "<group>"; };
+		658CB67F15B553DF004326C5 /* SPHAskSSHPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHAskSSHPass.m; sourceTree = "<group>"; };
+		658EEA7C15AD610E008E2875 /* NSUserDefaults+NonPropertyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+NonPropertyValue.h"; sourceTree = "<group>"; };
+		658EEA7D15AD610E008E2875 /* NSUserDefaults+NonPropertyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+NonPropertyValue.m"; sourceTree = "<group>"; };
+		659201A115A75C6B000AB407 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		659201A415A75C6B000AB407 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		659201A915A75C6B000AB407 /* An Awesome Socks Proxy Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "An Awesome Socks Proxy Manager-Info.plist"; sourceTree = "<group>"; };
+		659201AB15A75C6B000AB407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		659201AD15A75C6B000AB407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		659201AF15A75C6B000AB407 /* An Awesome Socks Proxy Manager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "An Awesome Socks Proxy Manager-Prefix.pch"; sourceTree = "<group>"; };
+		659201B115A75C6B000AB407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		659201B315A75C6B000AB407 /* SPHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPHAppDelegate.h; sourceTree = "<group>"; };
+		659201B415A75C6B000AB407 /* SPHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SPHAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65C6229615B6818D00291832 /* SPHSSHASkPass.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SPHSSHASkPass.sdef; sourceTree = "<group>"; };
+		65CA13CF15B5727100C6691A /* walkingsocks.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = walkingsocks.icns; path = ../walkingsocks.icns; sourceTree = "<group>"; };
+		65CA13D115B5727400C6691A /* sshaskpass.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = sshaskpass.icns; path = ../sshaskpass.icns; sourceTree = "<group>"; };
+		65CA13DD15B5755D00C6691A /* SSH Ask Pass.scriptSuite */ = {isa = PBXFileReference; lastKnownFileType = text.plist.scriptSuite; path = "SSH Ask Pass.scriptSuite"; sourceTree = "<group>"; };
+		65CA13DE15B5755D00C6691A /* SSH Ask Pass.scriptTerminology */ = {isa = PBXFileReference; lastKnownFileType = text.plist.scriptTerminology; path = "SSH Ask Pass.scriptTerminology"; sourceTree = "<group>"; };
+		65CA13E615B5767600C6691A /* SSHAskPass.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = SSHAskPass.sh; sourceTree = "<group>"; };
+		65F054ED15B050D800BA4860 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65F2079015A7DB9B0061F199 /* SPHProcessHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHProcessHelper.h; sourceTree = "<group>"; };
+		65F2079115A7DB9B0061F199 /* SPHProcessHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHProcessHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6537260815ADD6CA0092515C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CA13E815B57A4600C6691A /* AppKit.framework in Frameworks */,
+				6537260D15ADD6CA0092515C /* Cocoa.framework in Frameworks */,
+				6537262815ADD8C60092515C /* Security.framework in Frameworks */,
+				6537262915ADD8D40092515C /* SecurityFoundation.framework in Frameworks */,
+				65CA13EE15B57BDB00C6691A /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658CB65115B551E4004326C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CA13E915B57A5000C6691A /* AppKit.framework in Frameworks */,
+				658CB65615B551E4004326C5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6527102115A7E0DA007863F9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6527101615A7DF40007863F9 /* NSString+SeparatingIntoComponents.h */,
+				6527101715A7DF40007863F9 /* NSString+SeparatingIntoComponents.m */,
+				6527100E15A7DCCD007863F9 /* NSTask+OneLineTasksWithOutput.h */,
+				6527100F15A7DCCD007863F9 /* NSTask+OneLineTasksWithOutput.m */,
+				658EEA7C15AD610E008E2875 /* NSUserDefaults+NonPropertyValue.h */,
+				658EEA7D15AD610E008E2875 /* NSUserDefaults+NonPropertyValue.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		6527102215A7E0EA007863F9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				65F2079015A7DB9B0061F199 /* SPHProcessHelper.h */,
+				65F2079115A7DB9B0061F199 /* SPHProcessHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		658CB65715B551E4004326C5 /* SSH Ask Pass */ = {
+			isa = PBXGroup;
+			children = (
+				650BBD9C15B6A95C0083519D /* SPHAskPassAuthenticator.h */,
+				650BBD9D15B6A95C0083519D /* SPHAskPassAuthenticator.m */,
+				658CB67E15B553DF004326C5 /* SPHAskSSHPass.h */,
+				658CB67F15B553DF004326C5 /* SPHAskSSHPass.m */,
+				65C6229615B6818D00291832 /* SPHSSHASkPass.sdef */,
+				65CA13DD15B5755D00C6691A /* SSH Ask Pass.scriptSuite */,
+				65CA13DE15B5755D00C6691A /* SSH Ask Pass.scriptTerminology */,
+				658CB67915B55328004326C5 /* MainMenu.xib */,
+				658CB65815B551E4004326C5 /* Supporting Files */,
+			);
+			path = "SSH Ask Pass";
+			sourceTree = "<group>";
+		};
+		658CB65815B551E4004326C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65CA13D115B5727400C6691A /* sshaskpass.icns */,
+				658CB67515B55291004326C5 /* SSH Ask Pass-Info.plist */,
+				658CB65D15B551E4004326C5 /* main.m */,
+				658CB67415B5526A004326C5 /* SSH Ask Pass_Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6592019215A75C6A000AB407 = {
+			isa = PBXGroup;
+			children = (
+				659201A715A75C6B000AB407 /* An Awesome Socks Proxy Manager */,
+				658CB65715B551E4004326C5 /* SSH Ask Pass */,
+				659201A015A75C6B000AB407 /* Frameworks */,
+				6592019E15A75C6B000AB407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6592019E15A75C6B000AB407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6537260B15ADD6CA0092515C /* An Awesome Socks Proxy Manager.app */,
+				658CB65415B551E4004326C5 /* SSH Ask Pass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659201A015A75C6B000AB407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659201A115A75C6B000AB407 /* Cocoa.framework */,
+				659201A315A75C6B000AB407 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		659201A315A75C6B000AB407 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659201A415A75C6B000AB407 /* AppKit.framework */,
+				6527101D15A7E032007863F9 /* Security.framework */,
+				6527101E15A7E032007863F9 /* SecurityFoundation.framework */,
+				65F054ED15B050D800BA4860 /* SystemConfiguration.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		659201A715A75C6B000AB407 /* An Awesome Socks Proxy Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6527102115A7E0DA007863F9 /* Categories */,
+				6527102215A7E0EA007863F9 /* Helpers */,
+				659201B315A75C6B000AB407 /* SPHAppDelegate.h */,
+				659201B415A75C6B000AB407 /* SPHAppDelegate.m */,
+				6527102315A7EBB9007863F9 /* SPHCostants.h */,
+				653357E115B8B8BF0028A746 /* MainMenu.xib */,
+				659201A815A75C6B000AB407 /* Supporting Files */,
+			);
+			name = "An Awesome Socks Proxy Manager";
+			path = "An Awesome Socks Proxy Manager";
+			sourceTree = "<group>";
+		};
+		659201A815A75C6B000AB407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6505C3B015ADDADB00D27B44 /* Images */,
+				65CA13CF15B5727100C6691A /* walkingsocks.icns */,
+				65CA13E615B5767600C6691A /* SSHAskPass.sh */,
+				659201A915A75C6B000AB407 /* An Awesome Socks Proxy Manager-Info.plist */,
+				659201AA15A75C6B000AB407 /* InfoPlist.strings */,
+				659201AD15A75C6B000AB407 /* main.m */,
+				659201AF15A75C6B000AB407 /* An Awesome Socks Proxy Manager-Prefix.pch */,
+				659201B015A75C6B000AB407 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6537260A15ADD6CA0092515C /* An Awesome Socks Proxy Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6537262015ADD6CB0092515C /* Build configuration list for PBXNativeTarget "An Awesome Socks Proxy Manager" */;
+			buildPhases = (
+				6537260715ADD6CA0092515C /* Sources */,
+				6537260815ADD6CA0092515C /* Frameworks */,
+				6537260915ADD6CA0092515C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6535F59218168DEE003B7BC2 /* PBXTargetDependency */,
+			);
+			name = "An Awesome Socks Proxy Manager";
+			productName = "An Awesome Socks Proxy Manager";
+			productReference = 6537260B15ADD6CA0092515C /* An Awesome Socks Proxy Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		658CB65315B551E4004326C5 /* SSH Ask Pass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658CB66915B551E5004326C5 /* Build configuration list for PBXNativeTarget "SSH Ask Pass" */;
+			buildPhases = (
+				658CB65015B551E4004326C5 /* Sources */,
+				658CB65115B551E4004326C5 /* Frameworks */,
+				658CB65215B551E4004326C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSH Ask Pass";
+			productName = "SSH Ask Pass";
+			productReference = 658CB65415B551E4004326C5 /* SSH Ask Pass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6592019415A75C6A000AB407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 6592019715A75C6A000AB407 /* Build configuration list for PBXProject "An Awesome Socks Proxy Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 6592019215A75C6A000AB407;
+			productRefGroup = 6592019E15A75C6B000AB407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6537260A15ADD6CA0092515C /* An Awesome Socks Proxy Manager */,
+				658CB65315B551E4004326C5 /* SSH Ask Pass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6537260915ADD6CA0092515C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6535F59318168DF9003B7BC2 /* SSH Ask Pass.app in Resources */,
+				6505C3B115ADDADB00D27B44 /* Images in Resources */,
+				65CA13D015B5727100C6691A /* walkingsocks.icns in Resources */,
+				65CA13E715B5767600C6691A /* SSHAskPass.sh in Resources */,
+				653357E215B8B8BF0028A746 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658CB65215B551E4004326C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658CB67A15B55328004326C5 /* MainMenu.xib in Resources */,
+				65CA13D215B5727400C6691A /* sshaskpass.icns in Resources */,
+				65C6229715B6818D00291832 /* SPHSSHASkPass.sdef in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6537260715ADD6CA0092515C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6537262415ADD7AD0092515C /* SPHAppDelegate.m in Sources */,
+				6537262615ADD7B20092515C /* NSUserDefaults+NonPropertyValue.m in Sources */,
+				6537262715ADD7B60092515C /* NSTask+OneLineTasksWithOutput.m in Sources */,
+				65A07EDE15B57F4600999483 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658CB65015B551E4004326C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658CB65E15B551E4004326C5 /* main.m in Sources */,
+				658CB68015B553DF004326C5 /* SPHAskSSHPass.m in Sources */,
+				650BBD9E15B6A95C0083519D /* SPHAskPassAuthenticator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6535F59218168DEE003B7BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658CB65315B551E4004326C5 /* SSH Ask Pass */;
+			targetProxy = 6535F59118168DEE003B7BC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		659201AA15A75C6B000AB407 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659201AB15A75C6B000AB407 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		659201B015A75C6B000AB407 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659201B115A75C6B000AB407 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6537262115ADD6CB0092515C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "An Awesome Socks Proxy Manager/An Awesome Socks Proxy Manager-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "An Awesome Socks Proxy Manager/An Awesome Socks Proxy Manager-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6537262215ADD6CB0092515C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "An Awesome Socks Proxy Manager/An Awesome Socks Proxy Manager-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "An Awesome Socks Proxy Manager/An Awesome Socks Proxy Manager-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		658CB66A15B551E5004326C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSH Ask Pass/SSH Ask Pass-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "SSH Ask Pass/SSH Ask Pass-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		658CB66B15B551E5004326C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSH Ask Pass/SSH Ask Pass-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "SSH Ask Pass/SSH Ask Pass-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		659201B915A75C6B000AB407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		659201BA15A75C6B000AB407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6537262015ADD6CB0092515C /* Build configuration list for PBXNativeTarget "An Awesome Socks Proxy Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6537262115ADD6CB0092515C /* Debug */,
+				6537262215ADD6CB0092515C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658CB66915B551E5004326C5 /* Build configuration list for PBXNativeTarget "SSH Ask Pass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658CB66A15B551E5004326C5 /* Debug */,
+				658CB66B15B551E5004326C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6592019715A75C6A000AB407 /* Build configuration list for PBXProject "An Awesome Socks Proxy Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659201B915A75C6B000AB407 /* Debug */,
+				659201BA15A75C6B000AB407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6592019415A75C6A000AB407 /* Project object */;
+}
