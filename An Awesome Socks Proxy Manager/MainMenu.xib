@@ -172,7 +172,7 @@
                     <button horizontalHuggingPriority="750" verticalHuggingPriority="750" id="810">
                         <rect key="frame" x="18" y="39" width="25" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="help" bezelStyle="helpButton" image="AAD94408-4902-4411-B437-E5819A812508" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="831">
+                        <buttonCell key="cell" type="help" bezelStyle="helpButton" image="292BB250-73F1-4DD7-B2F3-676D4ECDBF43" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="831">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -197,7 +197,7 @@
                     <button verticalHuggingPriority="750" id="953">
                         <rect key="frame" x="350" y="35" width="69" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" image="FA9A6F6F-1B43-4E30-820A-E3A49ADDBE36" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="954">
+                        <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" image="11C2D31B-3141-4C1C-800B-B68C6DC98262" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="954">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -232,7 +232,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" alignment="justified" id="980">
                                     <font key="font" metaFont="system"/>
-                                    <string key="title">Interactive Password: aFSPM will ask to enter a password every time the tunnel is started, providing its own SSH_ASKPASS executable.</string>
+                                    <string key="title">Interactive Password: aWSPM will ask to enter a password every time the tunnel is started, providing its own SSH_ASKPASS executable.</string>
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -251,7 +251,7 @@
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="978">
                                 <rect key="frame" x="111" y="-27" width="310" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" alignment="justified" title="Identity Pubkey: aFSPM will use the choosen pubkey to log to the SSH Server." id="979">
+                                <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" alignment="justified" title="Identity Pubkey: aWSPM will use the choosen pubkey to log to the SSH Server." id="979">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -327,7 +327,7 @@
         </customObject>
     </objects>
     <resources>
-        <image name="AAD94408-4902-4411-B437-E5819A812508" width="1" height="1">
+        <image name="11C2D31B-3141-4C1C-800B-B68C6DC98262" width="1" height="1">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -378,7 +378,7 @@ swm2CbsJygnOCdUJ3QnqCe8J8QnzCfgKAAoDCggKEAoTCiUKKAotAAAAAAAAAgEAAAAAAAAAQgAAAAAA
 AAAAAAAAAAAACi8
 </mutableData>
         </image>
-        <image name="FA9A6F6F-1B43-4E30-820A-E3A49ADDBE36" width="1" height="1">
+        <image name="292BB250-73F1-4DD7-B2F3-676D4ECDBF43" width="1" height="1">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
