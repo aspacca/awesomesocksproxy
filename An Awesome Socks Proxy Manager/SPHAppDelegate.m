@@ -193,7 +193,7 @@ NSString *const kSPHAuthIdentityPath = @"kSPHAuthIdentityPath";
             }
             */
             
-            managementMenuItem.tag = abs(managementMenuItem.tag) + managementTag;
+            managementMenuItem.tag = labs(managementMenuItem.tag) + managementTag;
             
             if (4 == (managementMenuItem.tag % managementTag)) {
                 NSDictionary *proxyData = [self proxyDataFromIndex:aProxyMenuItem.tag];
@@ -536,7 +536,7 @@ NSString *const kSPHAuthIdentityPath = @"kSPHAuthIdentityPath";
 
         NSNumber *currentPort = [proxyDict valueForKey:(__bridge NSString*) kSCPropNetProxiesSOCKSPort];
         
-        if (![currentPort intValue] == [localPort_ intValue]) { // We are switching proxy, force enabled
+        if (!([currentPort intValue] == [localPort_ intValue])) { // We are switching proxy, force enabled
             
             enableFlag = [NSNumber numberWithInt:1];
             
