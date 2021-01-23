@@ -1168,23 +1168,23 @@ NSString *const kSPHAuthIdentityPath = @"kSPHAuthIdentityPath";
     } else {
         NSString *authType = [proxyData valueForKey:kSPHAuthType];
         
-        if ([authType isEqualToString:kSPHAuthPass]) {
-            NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-            NSString *pathToAuthentifier = [bundle pathForResource:@"SSHAskPass" ofType:@"sh"];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSString *pathToAuthentifier = [bundle pathForResource:@"SSHAskPass" ofType:@"sh"];
+        
+        if (!pathToAuthentifier) {
+            NSLog(@"No SSH_ASKPASS script found");
             
-            if (!pathToAuthentifier) {
-                NSLog(@"No SSH_ASKPASS script found");
-                
-                return;
-            }
+            return;
+        }
 
-            NSMutableDictionary *environment = [NSMutableDictionary dictionaryWithDictionary:[[NSProcessInfo processInfo] environment]];
-            [environment removeObjectForKey: @"SSH_AGENT_PID"];
-            [environment removeObjectForKey: @"SSH_AUTH_SOCK"];
-            [environment setObject: pathToAuthentifier forKey: @"SSH_ASKPASS"];
-            [environment setObject:@":0" forKey:@"DISPLAY"];
-            
-            
+        NSMutableDictionary *environment = [NSMutableDictionary dictionaryWithDictionary:[[NSProcessInfo processInfo] environment]];
+        [environment removeObjectForKey: @"SSH_AGENT_PID"];
+        [environment removeObjectForKey: @"SSH_AUTH_SOCK"];
+        [environment setObject: pathToAuthentifier forKey: @"SSH_ASKPASS"];
+        [environment setObject:@":0" forKey:@"DISPLAY"];
+        
+        
+        if ([authType isEqualToString:kSPHAuthPass]) {
             [NSTask stringByLaunchingPath:@"/usr/bin/ssh"
                             withArguments:[NSArray arrayWithObjects:@"-C2vTnNf", @"-D", localPort_, @"-p", remotePort_, userAtServer, nil]
                            andEnvironment:environment
@@ -1201,6 +1201,7 @@ NSString *const kSPHAuthIdentityPath = @"kSPHAuthIdentityPath";
             
             [NSTask stringByLaunchingPath:@"/usr/bin/ssh"
                             withArguments:[NSArray arrayWithObjects:@"-C2qTnNf", @"-i", identityFile_, @"-D", localPort_, @"-p", remotePort_, userAtServer, nil]
+                           andEnvironment:environment
                              inBackground:YES
                                     error:&error];
         }
