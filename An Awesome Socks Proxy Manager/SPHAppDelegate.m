@@ -70,13 +70,13 @@ NSString *const kSPHAuthIdentityPath = @"kSPHAuthIdentityPath";
     
     self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     
-    [self.statusItem setImage:statusIcon];
-    [self.statusItem setAlternateImage:statusIcon];
+    self.statusItem.button.image = statusIcon;
+    self.statusItem.button.alternateImage = statusIcon;
     
     [self.statusItem setMenu:self.statusMenu];
 
-    [self.statusItem setToolTip:@"Eat My Socks!"];
-    [self.statusItem setHighlightMode:YES];
+    self.statusItem.button.toolTip = @"Eat My Socks!";
+    self.statusItem.button.highlighted = YES;
     
     self.networkInterfaces = nil;
     [self.statusMenu update];
@@ -771,7 +771,7 @@ NSString *const kSPHAuthIdentityPath = @"kSPHAuthIdentityPath";
         [panel beginSheetModalForWindow:self.window  completionHandler:^(NSInteger result){
             [panel orderOut:nil];
 
-            if (result == NSFileHandlingPanelOKButton) {
+            if (result == NSModalResponseOK) {
                 for (NSURL *fileURL in [panel URLs]) {
                     
                     if (![[fileURL path] length]) {
